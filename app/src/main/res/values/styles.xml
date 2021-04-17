@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Clone.TextView.Error" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textAlignment">center</item>
+        <item name="android:drawableTop">@drawable/ic_error_24dp</item>
+    </style>
+
+    <style name="Clone.TextView.Info" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Clone.TextView.Info.Icon" parent="Clone.TextView.Info">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="drawableTint">?colorSecondaryVariant</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+    </style>
+
+    <style name="Clone.TextView.HeadLine" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textStyle">bold</item>
+        <item name="drawableTint">?colorSecondaryVariant</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+    </style>
+
+    <style name="Clone.TextView.HeadLine2" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textStyle">bold</item>
+        <item name="drawableTint">?colorSecondaryVariant</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+    </style>
+
+    <style name="Clone.TextView.Subtitle" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
