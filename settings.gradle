@@ -1,2 +1,5 @@
+include ':domain'
+include ':data-remote'
+include ':data-local'
 include ':app'
 rootProject.name = "StarWars-MVVM-Clone"
