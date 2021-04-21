@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/dashboard_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        app:layoutDescription="@xml/search_motion_scene"
+        tools:context=".DashboardActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/search_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+        <ImageButton
+            android:id="@+id/back_to_start_state_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/back_to_home_dashboard_content_desc"
+            android:src="@drawable/ic_arrow_left_24dp"
+            android:tint="@color/colorSecondaryVariant" />
+
+        <TextView
+            android:id="@+id/search_tagline_text_view"
+            style="@style/Clone.TextView.HeadLine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info_explore" />
+
+        <EditText
+            android:id="@+id/search_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_search_edit_text"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_search_24dp"
+            android:drawablePadding="8dp"
+            android:focusable="true"
+            android:hint="@string/hint_character_name"
+            android:inputType="text"
+            android:padding="@dimen/padding_default" />
+
+        <ProgressBar
+            android:id="@+id/search_results_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--<ProgressBar
+            android:id="@+id/favorites_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/favorites_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Clone.TextView.HeadLine"
+            android:text="@string/title_favorites"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favorites_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="2"
+            tools:listitem=""/>
+
+        <TextView
+            android:id="@+id/no_favorites_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Clone.TextView.Info.Icon"
+            android:gravity="center_horizontal"
+            android:text="@string/info_no_favorite_characters"/>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/search_results_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/search_edit_text"
+            tools:itemCount="2"
+            tools:listitem="" />
+
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+</layout>
