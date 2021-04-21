@@ -1,4 +1,4 @@
-# [#003]DashboardActivity화면구성(1)_MotionLayout
+# [003]DashboardActivity화면구성(1)_MotionLayout
 
 ## 진행
 - DashboardActivity 레아아웃 구성 (Search를 위한 레이아웃까지)

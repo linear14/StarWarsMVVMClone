@@ -1,4 +1,4 @@
-# [#001]스타일설정_themes.xml.md
+# [001]스타일설정_themes.xml.md
 
 ## 진행
 - themes.xml 기본 스타일 설정

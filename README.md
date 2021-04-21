@@ -19,14 +19,14 @@ Go to original source code --> [Links](https://github.com/odaridavid/Clean-MVVM-
 
 ## 스타일
 커밋은 `[#000]구현기능_핵심사용기술`과 같은 형식으로 진행한다.  
-ex) [#028]캐릭터조회_Retrofit 
+ex) [028]캐릭터조회_Retrofit 
 
 학습내용은 `[#000]구현기능_핵심사용기술`과 같은 형식으로 파일명을 생성한다.  
-ex) [#028]캐릭터조회_Retrofit 
+ex) [028]캐릭터조회_Retrofit 
 
 ## 진행
 커밋No | 구현 | 사용 기술 | 완료일 (학습내용 링크) 
 :---: | :---: | :---: | :---: | 
- | 001 | 스타일설정 | themes.xml | [21.04.17](./studycontent/[#001]스타일설정_themes.xml.md)
- | 002 | 멀티모듈 | multimodule | [21.04.18](./studycontent/[#002]멀티모듈_multimodule.md)
- | 003 | DashboardActivity 화면구성 (1) | MotionLayout | [21.04.21](./studycontent/[#003]DashboardActivity화면구성(1)_MotionLayout.md)
+ | 001 | 스타일설정 | themes.xml | [21.04.17](./studycontent/[001]스타일설정_themes.xml.md)
+ | 002 | 멀티모듈 | multimodule | [21.04.18](./studycontent/[002]멀티모듈_multimodule.md)
+ | 003 | DashboardActivity 화면구성 (1) | MotionLayout | [21.04.21](./studycontent/[003]DashboardActivity화면구성(1)_MotionLayout.md)

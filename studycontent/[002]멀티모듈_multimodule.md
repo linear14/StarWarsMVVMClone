@@ -1,4 +1,4 @@
-# [#002]멀티모듈_multimodule
+# [002]멀티모듈_multimodule
 
 ## 진행
 - 여러가지 Module 추가 (data-local, data-remote, domain)
