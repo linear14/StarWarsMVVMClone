@@ -1,9 +1,9 @@
 package com.ldh.starwars_mvvm_clone
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.ldh.starwars_mvvm_clone.base.BaseActivity
 
-class DashboardActivity : AppCompatActivity() {
+internal class DashboardActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
