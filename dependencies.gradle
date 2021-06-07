@@ -1,0 +1,27 @@
+ext {
+
+    // Dependencies version
+    koinVersion = '2.1.5'
+
+    // Data
+    retrofitVersion = '2.7.0'
+    moshiConverterVersion = '2.7.0'
+    loggingInterceptorVersion = '4.2.1'
+
+
+    appDependencies = [
+            koinAndroid           : "org.koin:koin-android:$koinVersion",
+            koinLifeCycleScope    : "org.koin:koin-android-scope:$koinVersion",
+            koinAndroidViewModel  : "org.koin:koin-androidx-viewmodel:$koinVersion"
+    ]
+
+    dataDependencies = [
+            retrofit           : "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            moshiConverter     : "com.squareup.retrofit2:converter-moshi:$moshiConverterVersion",
+            loggingInterceptor : "com.squareup.okhttp3:logging-interceptor:$loggingInterceptorVersion"
+    ]
+
+    domainDependencies = [
+
+    ]
+}

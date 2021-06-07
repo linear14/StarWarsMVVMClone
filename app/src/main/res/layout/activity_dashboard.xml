@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:animateLayoutChanges="true"
         app:layoutDescription="@xml/search_motion_scene"
-        tools:context=".DashboardActivity">
+        tools:context=".activities.DashboardActivity">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/search_toolbar"

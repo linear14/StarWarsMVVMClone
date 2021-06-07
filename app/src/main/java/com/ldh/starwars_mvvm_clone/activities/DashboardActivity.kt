@@ -1,6 +1,7 @@
-package com.ldh.starwars_mvvm_clone
+package com.ldh.starwars_mvvm_clone.activities
 
 import android.os.Bundle
+import com.ldh.starwars_mvvm_clone.R
 import com.ldh.starwars_mvvm_clone.base.BaseActivity
 
 internal class DashboardActivity : BaseActivity() {

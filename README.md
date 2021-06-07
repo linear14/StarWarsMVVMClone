@@ -31,3 +31,4 @@ ex) [028]캐릭터조회_Retrofit
  | 002 | 멀티모듈 | multimodule | [21.04.18](./studycontent/[002]멀티모듈_multimodule.md)
  | 003 | DashboardActivity 화면구성 (1) | MotionLayout | [21.04.21](./studycontent/[003]DashboardActivity화면구성(1)_MotionLayout.md)
  | 004 | BaseActivity 최초 구현 | WindowInsetsController / SystemUiVisibility | [21.05.17](./studyContent/[004]BaseActivity생성_StatusBar.md)
+ | 005 | Koin 및 Retrofit 연결 | dependencies.gradle / Koin / Retrofit | [21.06.07](./studyContent/[005]Koin+Retrofit_연결.md)
