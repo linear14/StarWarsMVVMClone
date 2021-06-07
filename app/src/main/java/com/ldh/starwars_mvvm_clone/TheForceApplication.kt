@@ -2,6 +2,7 @@ package com.ldh.starwars_mvvm_clone
 
 import android.app.Application
 import com.ldh.starwars_mvvm_clone.di.networkModule
+import com.ldh.starwars_mvvm_clone.di.remoteDataSourceModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -15,7 +16,8 @@ internal class StarwarsApplication: Application() {
             // add android context
             androidContext(this@StarwarsApplication)
             modules(
-                networkModule
+                networkModule,
+                remoteDataSourceModule
             )
         }
 

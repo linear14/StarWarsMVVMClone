@@ -11,6 +11,8 @@ java {
 
 dependencies {
 
+    implementation project(':domain')
+
     api dataDependencies.retrofit
     api dataDependencies.moshiConverter
     api dataDependencies.loggingInterceptor
