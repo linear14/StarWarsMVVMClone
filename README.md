@@ -34,3 +34,4 @@ ex) [028]캐릭터조회_Retrofit
  | 005 | Koin 및 Retrofit 연결 | dependencies.gradle / Koin / Retrofit | [21.06.07](./studyContent/[005]Koin+Retrofit_연결.md)
  | 006 | Search Repository 구현 | Coroutine Flow / Retrofit / Clean Architecture | [21.06.07](./studyContent/[006]Search_Repository_최초구현_Coroutine.md)
  | 007 | Character 검색의 최소 단위 생성 | UseCase | [21.06.09](./studyContent/[007]SearchCharacter의_최소단위_생성_UseCase.md)
+ | 008 | Search ViewModel 생성 및 Observing | ViewModel / Corountine / CoroutineExceptionHandler / BigDecimal | [21.06.17](./studyContent/[008]Presentation_Layer와_Domain_Layer의_연결_및_Observing.md)

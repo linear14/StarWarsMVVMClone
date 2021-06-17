@@ -1,21 +1,25 @@
 ext {
 
-    // Dependencies version
+    // Dependencies version - Presentation
     koinVersion = '2.1.5'
+    lifecycleExtensionsVersion = '2.1.0'
+    lifecycleExtensionsViewModelVersion = '2.2.0'
 
-    // Data
+    // Dependencies version - Data
     retrofitVersion = '2.7.0'
     moshiConverterVersion = '2.7.0'
     loggingInterceptorVersion = '4.2.1'
 
-    // Domain
+    // Dependencies version - Domain
     coroutinesCoreVersion = '1.3.3'
 
 
     appDependencies = [
-            koinAndroid           : "org.koin:koin-android:$koinVersion",
-            koinLifeCycleScope    : "org.koin:koin-android-scope:$koinVersion",
-            koinAndroidViewModel  : "org.koin:koin-androidx-viewmodel:$koinVersion"
+            lifecycleExtensions          : "androidx.lifecycle:lifecycle-extensions:$lifecycleExtensionsVersion",
+            lifecycleExtensionsViewModel : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleExtensionsViewModelVersion",
+            koinAndroid                  : "org.koin:koin-android:$koinVersion",
+            koinLifeCycleScope           : "org.koin:koin-android-scope:$koinVersion",
+            koinAndroidViewModel         : "org.koin:koin-androidx-viewmodel:$koinVersion"
     ]
 
     dataDependencies = [
