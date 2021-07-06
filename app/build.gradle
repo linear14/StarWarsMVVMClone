@@ -48,6 +48,9 @@ dependencies {
     implementation appDependencies.lifecycleExtensionsViewModel
     implementation appDependencies.lifecycleExtensions
 
+    // kiel
+    implementation appDependencies.kiel
+
     // Koin
     implementation appDependencies.koinAndroid
     implementation appDependencies.koinAndroidViewModel

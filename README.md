@@ -35,3 +35,4 @@ ex) [028]캐릭터조회_Retrofit
  | 006 | Search Repository 구현 | Coroutine Flow / Retrofit / Clean Architecture | [21.06.07](./studycontent/[006]Search_Repository_최초구현_Coroutine.md)
  | 007 | Character 검색의 최소 단위 생성 | UseCase | [21.06.09](./studycontent/[007]SearchCharacter의_최소단위_생성_UseCase.md)
  | 008 | Search ViewModel 생성 및 Observing | ViewModel / Corountine / CoroutineExceptionHandler / BigDecimal | [21.06.17](./studycontent/[008]Presentation_Layer와_Domain_Layer의_연결_및_Observing.md)
+ | 009 | RecyclerView 초기설정 | Kiel Library / Kotlin Extensions | [21.07.06](./studycontent/[009]Kiel_Library를_이용한_RecyclerView_초기_설정.md)

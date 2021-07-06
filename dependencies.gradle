@@ -4,6 +4,7 @@ ext {
     koinVersion = '2.1.5'
     lifecycleExtensionsVersion = '2.1.0'
     lifecycleExtensionsViewModelVersion = '2.2.0'
+    kielVersion = '1.2.1'
 
     // Dependencies version - Data
     retrofitVersion = '2.7.0'
@@ -19,7 +20,8 @@ ext {
             lifecycleExtensionsViewModel : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleExtensionsViewModelVersion",
             koinAndroid                  : "org.koin:koin-android:$koinVersion",
             koinLifeCycleScope           : "org.koin:koin-android-scope:$koinVersion",
-            koinAndroidViewModel         : "org.koin:koin-androidx-viewmodel:$koinVersion"
+            koinAndroidViewModel         : "org.koin:koin-androidx-viewmodel:$koinVersion",
+            kiel                         : "me.ibrahimyilmaz:kiel:$kielVersion"
     ]
 
     dataDependencies = [
